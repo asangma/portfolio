@@ -5,12 +5,20 @@ body {
     height: 100%;
     padding: 0 0 100px;
     margin: 0;
+    /*background-size: 100%;*/
     background: url('../images/poly-bg-00-30-opacity.png') center -100px repeat-y;
-    background-size: 100%;
+}
+.homepage {
+  background: url('../images/geo-background.jpg') center top no-repeat;
 }
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-bottom: 1.2rem;
 }
+
+h1, .h1, h2, .h2, h3, .h3 {
+  font-weight: 300;
+}
+
 ul, ol {
   padding-left:1em;
 }
@@ -38,7 +46,7 @@ hr {
 }
 .fat-hr {
   margin-top:40px;
-  margin-bottom:40px;
+  margin-bottom:20px;
 }
 
 .invisible-hr {
@@ -60,7 +68,7 @@ hr {
 
 .navbar-default {
     background-color: #fff;
-    background-color: rgba(255, 255, 255, .95);
+    background-color: rgba(255, 255, 255, .85);
     /*background: url('../images/main-bg.png') center top no-repeat #000;*/
     /*background-size: cover;*/
     border: none;
@@ -88,16 +96,18 @@ hr {
 }
 
 .navbar-default .navbar-brand {
-  padding-top:0;
+  padding-top: 0;
   padding-bottom: 0;
+  font-weight: 300;
+  font-size: 1.3rem;
 }
 
 .navbar-default .navbar-brand span {
     font-size: 2rem;
-    font-weight:100;
     color:#000;
     height:50px;
     line-height: 50px;
+    margin-right:.1em;
 }
 
 .navbar-brand img.portrait {
@@ -107,7 +117,7 @@ hr {
     margin-top: -5px;
 }
 .navbar-brand a {
-  color:#959595;
+  color:#666;
 }
 .navbar-brand a:hover {
   text-decoration: none;
@@ -191,7 +201,9 @@ hr {
 
 .thumbnail {
   background-color:#f8f8f8;
+  padding:0;
   border-color: #e7e7e7;
+  border-radius:0;
   -webkit-transition: border-color 125ms ease-in-out;
      -moz-transition: border-color 125ms ease-in-out;
       -ms-transition: border-color 125ms ease-in-out;
@@ -199,8 +211,8 @@ hr {
           transition: border-color 125ms ease-in-out;
 }
 
-.featured-projects .thumbnail:hover {
-  border-color:#959595;
+.thumbnail:hover {
+  border-color:#999;
 }
 
 .panel {/*

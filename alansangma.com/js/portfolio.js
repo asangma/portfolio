@@ -36,17 +36,17 @@ jQuery(document).ready(function($) {
         } else {
             jQuery('#about').addClass('active');
             //data-top="margin-left:-65px;" data--150-top="margin-left:-15px;"
-            jQuery('.navbar-brand').attr('data--200-top', "margin-left:-75px;");
-            jQuery('.navbar-brand').attr('data--250-top', "margin-left:-25px;");
+            //jQuery('.navbar-brand').attr('data--200-top', "margin-left:-75px;");
+            //jQuery('.navbar-brand').attr('data--250-top', "margin-left:-25px;");
         }
-       jQuery('body').animate({scrollTop: 0}, 25, function(){
+       // jQuery('body').animate({scrollTop: 0}, 25, function(){
           //  console.log('*');
             sklr = skrollr.init({
                 smoothScrollling: true,
                 forceHeight: true,
                 edgeStrategy: 'ease'
             }); 
-       });
+       // });
     });
 
 
