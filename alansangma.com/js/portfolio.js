@@ -57,3 +57,12 @@ jQuery(document).ready(function($) {
     jQuery(window).trigger('resize');
 
 });
+
+
+   
+jQuery(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+    event.preventDefault();
+    jQuery(this).ekkoLightbox({
+        //footer: $(this).attr('title');
+    });
+}); 

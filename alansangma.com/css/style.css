@@ -15,7 +15,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-bottom: 1.2rem;
 }
 
-h1, .h1, h2, .h2, h3, .h3 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   font-weight: 300;
 }
 
@@ -151,6 +151,39 @@ hr {
     background-color: transparent;
     color: #000;
     background-image: none;
+}
+
+.modal-header {
+  background-color: rgba(255,255,255, 0.5);
+  color: #000;
+  border: none;
+  position: absolute;
+  z-index: 200;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+}
+
+.modal-title {
+  font-size:1.5rem;
+}
+
+.modal-body {
+  padding:0;
+}
+
+.modal-content {
+  max-width: 90%;
+  margin:0 5%;
+  border:none;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+}
+
+.close {
+  opacity:0.8;
+  text-shadow: none;
 }
 
 .row {
