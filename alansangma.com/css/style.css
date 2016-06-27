@@ -1,6 +1,6 @@
 body {
     background-color: #fff;
-    color: #333;
+    color: #323232;
     width: 100%;
     height: 100%;
     padding: 0 0 100px;
@@ -8,7 +8,7 @@ body {
     background: url('../images/poly-bg-00-30-opacity.png') center -100px repeat-y;
     background-size: 100%;
     font-family: "Avenir Next W00", "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
 }
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -44,6 +44,12 @@ ul, ol {
     border: none;
     padding: 0;
     margin: 0;
+}
+
+.widget-demo {
+  width: 100%;
+  height: 600px;
+  border: none;
 }
 
 
