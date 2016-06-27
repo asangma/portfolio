@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html dir="ltr">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no" />
+  <title>ArcGIS API for JavaScript | Basic Search</title>
+  <!-- <link rel="stylesheet" href="https://js.arcgis.com/3.17/esri/themes/calcite/dijit/calcite.css"> -->
+  <!-- <link rel="stylesheet" href="https://js.arcgis.com/3.17/esri/themes/calcite/esri/esri.css"> -->
+  <link rel="stylesheet" type="text/css" href="http://cdn.arcgis.com/cdn/10175/js/arcgisonline/css/jsapi-map.css">
+  <style>
+  html,
+  body,
+  #map {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #search, #home, #locate, #toggle, #legend {
+    display: block;
+    position: absolute !important;
+    z-index: 2;
+  }
+  #search {
+    top: 20px;
+    right: 20px;
+  }
+  #home {
+    top: 95px;
+    left: 20px;
+  }
+  #locate {
+    top: 140px;
+    left: 20px;
+  }
+  #toggle {
+    bottom: 20px;
+    left: 20px;
+  }
+  #legend {
+    bottom: 60px;
+    right: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #57585A;
+  }
+  </style>
+  <script src="https://js.arcgis.com/3.17/"></script>
+  <script>
+  require([
+
+    "esri/map",
+    "esri/arcgis/utils",
+    "esri/dijit/Legend",
+    "esri/dijit/Search",
+    "esri/dijit/HomeButton",
+    "esri/dijit/LocateButton",
+    "esri/dijit/BasemapToggle",
+    "dojo/domReady!"
+
+  ], function(Map, arcgisUtils, Legend, Search, HomeButton, LocateButton, BasemapToggle) {
+    // var map = new Map("map", {
+    //   basemap: "gray-vector",
+    //   center: [-74.027, 40.623], // lon, lat
+    //   zoom: 11
+    // });
+    var map;
+    arcgisUtils.createMap('4abe6a830b8f466dacf8abfde567a781', 'map').then(function(response) {
+      map = response.map;
+
+      var search = new Search({
+        map: map
+      }, "search");
+      search.startup();
+
+      var home = new HomeButton({
+        map: map
+      }, "home");
+      home.startup();
+
+      var locate = new LocateButton({
+        map: map
+      }, "locate");
+      locate.startup();
+
+      var toggle = new BasemapToggle({
+        map: map,
+        basemap: "streets-night-vector"
+      }, "toggle");
+      toggle.startup();
+
+      var legendLayers = arcgisUtils.getLegendLayers(response);
+      var legendDijit = new Legend({
+        map: map,
+        layerInfos: legendLayers
+      }, "legend");
+      legendDijit.startup();
+    });
+
+  });
+  </script>
+</head>
+
+<body class="calcite">
+  <div id="legend"></div>
+  <div id="search"></div>
+  <div id="home"></div>
+  <div id="locate"></div>
+  <div id="toggle"></div>
+  <div id="map"></div>
+</body>
+
+</html>

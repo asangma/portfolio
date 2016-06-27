@@ -51,8 +51,10 @@ jQuery(document).ready(function($) {
 
 
     jQuery(window).resize(function(e) {
+        // var min_h = 330;
         var w = jQuery('.project-banner').width();
-        jQuery('.project-banner').height(w / 2.5);
+        // var h = (w / 3) > min_h ? (w / 3) : min_h;
+        jQuery('.project-banner').height(w / 3);
     });
     jQuery(window).trigger('resize');
 
