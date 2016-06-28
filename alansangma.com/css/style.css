@@ -229,6 +229,7 @@ hr {
 
 .section-title {
   font-size: 30px;
+  margin-top: 0px;
 }
 
 .thumbnail {
@@ -322,6 +323,17 @@ hr {
 /*.crossfader-3 {
   opacity:0;  
   z-index: 200;
+}*/
+
+.container__bg {
+  background-color: #f8f8f8;
+  padding: 30px 0;
+  -webkit-box-shadow: 0 0px 4px rgba(0, 0, 0, 0.15) inset;
+          box-shadow: 0 0px 4px rgba(0, 0, 0, 0.15) inset;
+}
+
+/*.container__bg .section-title {
+  margin-top: 0px;
 }*/
 
 .project-banner {
