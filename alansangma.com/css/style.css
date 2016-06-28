@@ -233,11 +233,11 @@ hr {
 }
 
 .project-thumb {
-  -webkit-transition: all 250ms ease-in-out;
-     -moz-transition: all 250ms ease-in-out;
-      -ms-transition: all 250ms ease-in-out;
-       -o-transition: all 250ms ease-in-out;
-          transition: all 250ms ease-in-out;
+  -webkit-transition: all 125ms ease-out;
+     -moz-transition: all 125ms ease-out;
+      -ms-transition: all 125ms ease-out;
+       -o-transition: all 125ms ease-out;
+          transition: all 125ms ease-out;
   -webkit-transform: scale(0.9);
      -moz-transform: scale(0.9);
       -ms-transform: scale(0.9);
