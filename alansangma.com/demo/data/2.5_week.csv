@@ -1,0 +1,241 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2016-07-05T21:00:22.660Z,39.489,73.4459,10,4.4,mb,,91,1.27,1.24,us,us100060k5,2016-07-05T21:19:32.229Z,"31km SSE of Sary-Tash, Kyrgyzstan",earthquake,6.3,1.9,0.103,27,reviewed,us,us
+2016-07-05T20:17:14.840Z,37.3679,-98.2025,5,3.5,mb_lg,,121,0.177,0.23,us,us10006069,2016-07-05T22:18:22.957Z,"18km WNW of Harper, Kansas",earthquake,1.7,2,0.051,99,reviewed,us,us
+2016-07-05T19:31:44.620Z,2.0851,128.3228,192.36,4.3,mb,,105,1.617,0.6,us,us1000605t,2016-07-05T20:05:52.472Z,"52km NE of Tobelo, Indonesia",earthquake,3.6,8,0.072,55,reviewed,us,us
+2016-07-05T19:06:45.000Z,-32.927,-177.8664,10,5.2,mb,,60,3.67,0.65,us,us1000605l,2016-07-05T20:06:42.040Z,"192km SSE of L'Esperance Rock, New Zealand",earthquake,9.5,1.7,0.05,135,reviewed,us,us
+2016-07-05T18:31:22.000Z,63.0269,-150.9462,118.8,2.8,ml,,,,0.54,ak,ak13739906,2016-07-05T19:10:47.289Z,"89km NNW of Talkeetna, Alaska",earthquake,0.3,0.5,,,automatic,ak,ak
+2016-07-05T18:15:19.690Z,-41.6855,-74.0542,39.51,4.3,mb,,161,0.517,0.68,us,us1000604v,2016-07-05T18:50:07.119Z,"28km NW of Ancud, Chile",earthquake,6.4,7.8,0.154,12,reviewed,us,us
+2016-07-05T17:21:57.210Z,36.2626,-97.5821,5,3.5,mb_lg,,45,0.159,0.35,us,us1000604i,2016-07-05T19:22:55.312Z,"26km W of Perry, Oklahoma",earthquake,1,2,0.051,101,reviewed,us,us
+2016-07-05T15:52:03.730Z,38.2305,73.6797,155.4,4.3,mb,,59,1.744,0.91,us,us10006049,2016-07-05T17:46:02.415Z,"26km WNW of Murghob, Tajikistan",earthquake,6.7,4.9,0.099,29,reviewed,us,us
+2016-07-05T15:22:17.940Z,21.8613,145.3276,36.21,5.2,mb,,34,5.945,0.48,us,us10006041,2016-07-05T17:20:25.579Z,"153km NNE of Farallon de Pajaros, Northern Mariana Islands",earthquake,8,5.4,0.033,298,reviewed,us,us
+2016-07-05T14:48:43.400Z,17.9158,-65.5367,31,2.7,Md,13,212.4,0.37280084,0.28,pr,pr16187004,2016-07-05T15:43:56.040Z,"21km SSW of Esperanza, Puerto Rico",earthquake,1.6,3.5,0,8,reviewed,pr,pr
+2016-07-05T14:44:49.000Z,52.7775,-166.6581,16.7,2.5,ml,,,,0.44,ak,ak13739405,2016-07-05T16:34:10.763Z,"122km S of Unalaska, Alaska",earthquake,3.1,4,,,reviewed,ak,ak
+2016-07-05T14:23:56.300Z,43.3325,-126.6572,10,3.1,ml,,255,1.762,1.12,us,us1000603j,2016-07-05T14:41:35.624Z,"184km W of Bandon, Oregon",earthquake,5.6,2,0.046,62,reviewed,us,us
+2016-07-05T11:48:54.100Z,-0.3386,125.4749,35,4.4,mb,,69,2.189,1.29,us,us1000601b,2016-07-05T14:28:27.620Z,"161km N of Dofa, Indonesia",earthquake,4.5,2,0.123,19,reviewed,us,us
+2016-07-05T11:33:03.920Z,35.5119,129.8661,10,4.8,mb,,24,0.669,0.91,us,us1000601a,2016-07-05T16:21:35.040Z,"49km E of Ulsan, South Korea",earthquake,4.9,1.9,0.076,54,reviewed,us,us
+2016-07-05T11:18:03.620Z,-0.2665,125.5466,35,4.5,mb,,51,2.091,1.01,us,us10006015,2016-07-05T14:22:12.574Z,"168km SE of Modayag, Indonesia",earthquake,5.6,2,0.113,23,reviewed,us,us
+2016-07-05T09:43:44.760Z,24.8082,95.2124,98.55,4.4,mb,,64,1.01,0.57,us,us1000600x,2016-07-05T10:25:41.290Z,"116km E of Yairipok, India",earthquake,9.2,8.9,0.114,22,reviewed,us,us
+2016-07-05T06:46:59.000Z,60.2148,-150.863,62.4,2.5,ml,,,,0.6,ak,ak13738863,2016-07-05T07:14:28.565Z,"29km SE of Cohoe, Alaska",earthquake,0.4,0.7,,,automatic,ak,ak
+2016-07-05T06:01:23.230Z,36.9696667,-112.9161667,14.6,2.5,ml,14,208,0.2658,0.24,uu,uu60154882,2016-07-05T21:54:57.882Z,"5km ESE of Colorado City, Arizona",earthquake,1.2,0.92,0.233,6,reviewed,uu,uu
+2016-07-05T04:51:12.990Z,36.1518333,-89.6965,9.11,2.97,md,56,26,0.03208,0.21,nm,nm60123697,2016-07-05T05:09:49.500Z,"5km SW of Caruthersville, Missouri",earthquake,0.28,0.49,0.142,45,reviewed,nm,nm
+2016-07-05T04:10:21.770Z,36.9731667,-112.9095,17.69,2.96,ml,17,132,0.2705,0.13,uu,uu60154867,2016-07-05T21:51:24.883Z,"6km ESE of Colorado City, Arizona",earthquake,0.57,0.76,0.187,6,reviewed,uu,uu
+2016-07-05T04:06:44.650Z,19.4731667,-155.646,5.555,2.63,ml,27,48,0.04761,0.21,hv,hv61323916,2016-07-05T15:27:31.114Z,"23km E of Honaunau-Napoopoo, Hawaii",earthquake,0.38,1.39,0.176,16,reviewed,hv,hv
+2016-07-05T03:40:06.100Z,18.7215,-67.568,9,2.8,Md,12,295.2,0.34585138,0.49,pr,pr16187000,2016-07-05T07:45:43.586Z,"53km NW of Rincon, Puerto Rico",earthquake,2.2,1.7,0,8,reviewed,pr,pr
+2016-07-05T03:20:39.000Z,56.7011,-135.8169,31.4,3.6,ml,,,,0.73,ak,ak13738825,2016-07-05T04:05:52.160Z,"49km SW of Sitka, Alaska",earthquake,0.9,0.2,,,reviewed,ak,ak
+2016-07-05T02:29:03.530Z,-20.1948,-70.9115,11.2,5,mwr,,136,0.736,0.9,us,us10005zyk,2016-07-05T16:42:52.000Z,"80km W of Iquique, Chile",earthquake,4.5,2.6,0.041,58,reviewed,us,us
+2016-07-04T23:37:28.320Z,36.9241,-98.0315,2.54,2.8,mb_lg,,76,0.063,0.2,us,us10005zxr,2016-07-04T23:45:14.454Z,"25km S of Anthony, Kansas",earthquake,1.1,4,0.061,70,reviewed,us,us
+2016-07-04T23:35:51.780Z,46.8062,152.8785,35,4.4,mb,,169,7.031,1.41,us,us10005zxw,2016-07-05T00:09:42.374Z,"Kuril Islands",earthquake,4.8,1.9,0.087,38,reviewed,us,us
+2016-07-04T23:35:14.650Z,16.6123,-97.8297,31.94,4.3,mb,,198,1.178,1.14,us,us10005zxs,2016-07-04T23:55:47.144Z,"23km NNE of Pinotepa de Don Luis, Mexico",earthquake,13.1,12.4,0.062,73,reviewed,us,us
+2016-07-04T23:04:50.300Z,18.7085,-66.969,60,2.7,Md,7,266.4,0.27488448,0.21,pr,pr16186009,2016-07-05T03:23:59.292Z,"23km NNE of Isabela, Puerto Rico",earthquake,1.3,1.2,0,4,reviewed,pr,pr
+2016-07-04T23:02:23.480Z,-20.6978,-69.1784,93.55,4.7,mb,,42,0.449,0.64,us,us10005zxd,2016-07-05T17:13:50.040Z,"113km ESE of Iquique, Chile",earthquake,3,5.2,0.08,47,reviewed,us,us
+2016-07-04T22:48:53.910Z,35.6237,-97.0815,2.59,2.5,mb_lg,,57,0.094,0.33,us,us10005zxb,2016-07-04T23:09:20.177Z,"11km ESE of Luther, Oklahoma",earthquake,1.5,4.1,0.077,44,reviewed,us,us
+2016-07-04T21:35:26.150Z,-2.1018,138.966,43.29,4.4,mb,,192,6.759,0.89,us,us10005zx3,2016-07-04T22:03:05.323Z,"189km WNW of Abepura, Indonesia",earthquake,11,8.5,0.112,23,reviewed,us,us
+2016-07-04T21:15:52.520Z,29.6131,143.3523,9.1,4.6,mb,,142,2.711,0.97,us,us10005zwx,2016-07-04T21:47:01.834Z,"Izu Islands, Japan region",earthquake,8.8,4.1,0.079,48,reviewed,us,us
+2016-07-04T21:02:39.860Z,39.5984,73.068,10,4.2,mb,,112,0.983,1.21,us,us10005zwt,2016-07-04T21:26:04.162Z,"21km SW of Sary-Tash, Kyrgyzstan",earthquake,5.2,2,0.176,9,reviewed,us,us
+2016-07-04T21:01:56.900Z,18.2532,-67.4148,131,3,Md,7,280.8,0.32069856,0.2,pr,pr16186008,2016-07-05T00:57:46.045Z,"19km WSW of Rincon, Puerto Rico",earthquake,2.5,1.2,0,5,reviewed,pr,pr
+2016-07-04T21:01:44.810Z,35.8532,-97.2296,1.9,2.8,mb_lg,,42,0.191,0.26,us,us10005zwr,2016-07-04T21:11:32.598Z,"10km SSE of Langston, Oklahoma",earthquake,1.3,4.6,0.066,59,reviewed,us,us
+2016-07-04T19:53:57.900Z,-21.3182,168.6743,8.54,5,mb,,108,0.621,0.81,us,us10005zwi,2016-07-04T20:25:53.273Z,"85km ENE of Tadine, New Caledonia",earthquake,4.4,4.8,0.098,33,reviewed,us,us
+2016-07-04T18:57:08.000Z,53.164,172.7511,25,3.7,ml,,,,0.39,ak,ak13738031,2016-07-04T19:56:33.462Z,"45km NW of Attu Station, Alaska",earthquake,10.5,,,,reviewed,ak,ak
+2016-07-04T18:40:44.270Z,52.5649,172.7571,34.99,5.3,mb,,146,0.836,1.02,us,us10005zvt,2016-07-04T19:20:52.021Z,"42km SW of Attu Station, Alaska",earthquake,9.1,9.6,0.059,95,reviewed,us,us
+2016-07-04T18:34:52.060Z,36.2651,-97.34,7.4,2.7,mb_lg,,47,0.316,0.24,us,us10005zvp,2016-07-04T18:49:03.040Z,"5km WSW of Perry, Oklahoma",earthquake,0.9,7,0.081,40,reviewed,us,us
+2016-07-04T18:13:26.000Z,52.7228,171.5776,25,3.4,ml,,,,0.46,ak,ak13738176,2016-07-04T20:26:57.960Z,"109km W of Attu Station, Alaska",earthquake,15.4,,,,reviewed,ak,ak
+2016-07-04T17:38:45.460Z,-30.1456,-177.7707,33.33,5.2,mwb,,58,0.908,1.37,us,us10005zve,2016-07-04T18:13:50.327Z,"98km S of Raoul Island, New Zealand",earthquake,10.4,3.9,0.069,20,reviewed,us,us
+2016-07-04T14:15:43.670Z,-22.6621,171.5415,33.98,4.8,mb,,109,3.462,0.55,us,us10005zud,2016-07-04T15:15:56.552Z,"59km WSW of Ile Hunter, New Caledonia",earthquake,10.3,2.3,0.091,37,reviewed,us,us
+2016-07-04T13:48:47.310Z,36.1361,139.705,48.58,4.5,mb,,90,0.404,0.72,us,us10005zu6,2016-07-04T14:55:11.733Z,"0km NE of Kurihashi, Japan",earthquake,5.8,7.2,0.113,23,reviewed,us,us
+2016-07-04T13:32:28.040Z,40.0413333,-111.2288333,5.35,2.54,ml,29,83,0.3117,0.17,uu,uu60154832,2016-07-05T21:49:16.875Z,"31km ESE of Mapleton, Utah",earthquake,0.32,6.2,0.148,5,reviewed,uu,uu
+2016-07-04T12:48:02.350Z,-20.9661,-175.922,204.36,4.9,mb,,113,5.941,1.02,us,us10005ztt,2016-07-04T13:06:17.546Z,"76km WNW of Havelu, Tonga",earthquake,14.4,11.5,0.092,37,reviewed,us,us
+2016-07-04T12:16:44.870Z,2.0218,127.7931,46.44,4.6,mb,,103,1.312,0.84,us,us10005ztg,2016-07-04T12:34:52.103Z,"40km NW of Tobelo, Indonesia",earthquake,4,7.8,0.084,42,reviewed,us,us
+2016-07-04T11:48:14.000Z,61.9227,-149.3265,32,2.5,ml,,,,0.69,ak,ak13737545,2016-07-04T12:25:09.305Z,"20km NNW of Fishhook, Alaska",earthquake,0.2,0.3,,,automatic,ak,ak
+2016-07-04T10:57:19.000Z,67.6229,-166.9506,5.6,3.4,ml,,,,0.81,ak,ak13737411,2016-07-04T16:15:20.773Z,"81km S of Point Hope, Alaska",earthquake,7.3,5.8,,,reviewed,ak,ak
+2016-07-04T10:52:52.760Z,-0.5323,-12.6569,10,4.9,mb,,90,7.544,0.83,us,us10005zt8,2016-07-04T11:23:02.142Z,"North of Ascension Island",earthquake,11.1,1.9,0.068,68,reviewed,us,us
+2016-07-04T10:50:02.000Z,59.774,-153.0876,105.1,2.7,ml,,,,0.62,ak,ak13737402,2016-07-04T11:26:31.451Z,"70km W of Anchor Point, Alaska",earthquake,0.3,0.4,,,automatic,ak,ak
+2016-07-04T10:20:41.000Z,57.941,-151.055,34.7,2.9,ml,,,,0.54,ak,ak13737399,2016-07-04T10:55:01.349Z,"82km ENE of Kodiak, Alaska",earthquake,0.8,285,,,automatic,ak,ak
+2016-07-04T09:49:59.850Z,36.49,-98.7774,5,2.5,mb_lg,,139,0.03,0.46,us,us10005zsw,2016-07-04T10:28:14.497Z,"36km SSW of Alva, Oklahoma",earthquake,2,1.9,0.081,40,reviewed,us,us
+2016-07-04T09:38:37.490Z,3.4481,-82.7973,10,4.8,mb,,153,5.092,1.41,us,us10005zss,2016-07-04T09:56:17.457Z,"South of Panama",earthquake,9.1,1.9,0.036,235,reviewed,us,us
+2016-07-04T09:25:41.800Z,-10.6376,164.9739,66.85,5.6,mb,,75,5.091,0.91,us,us10005zsp,2016-07-05T16:22:18.000Z,"94km W of Lata, Solomon Islands",earthquake,8,3.2,0.04,220,reviewed,us,us
+2016-07-04T09:13:54.030Z,19.4741667,-155.6406667,6.195,2.63,ml,41,60,0.04249,0.13,hv,hv61321831,2016-07-04T17:00:03.310Z,"23km E of Honaunau-Napoopoo, Hawaii",earthquake,0.25,0.8,0.226,16,reviewed,hv,hv
+2016-07-04T07:11:51.890Z,39.3485,143.4638,22.75,4.6,mb,,143,2.336,0.92,us,us10005zs1,2016-07-04T07:35:00.624Z,"131km E of Yamada, Japan",earthquake,8.3,6.2,0.116,24,reviewed,us,us
+2016-07-04T04:43:36.470Z,46.5141,152.7939,50.93,4.6,mb,,134,6.91,1.15,us,us10005zrq,2016-07-04T04:59:41.418Z,"Kuril Islands",earthquake,2.8,7.9,0.072,57,reviewed,us,us
+2016-07-04T04:38:48.060Z,-14.2914,167.7517,93.91,4.7,mb,,139,6.468,1.01,us,us10005zrp,2016-07-04T04:55:11.380Z,"50km SSE of Sola, Vanuatu",earthquake,14.7,9.5,0.099,31,reviewed,us,us
+2016-07-04T04:29:43.000Z,35.6659,-97.1552,2.48,2.5,mb_lg,,37,0.031,0.28,us,us10005zrl,2016-07-04T04:50:27.186Z,"3km E of Luther, Oklahoma",earthquake,1.2,3.4,0.076,45,reviewed,us,us
+2016-07-04T02:24:23.890Z,29.0458,129.2817,37.53,4.7,mb,,117,2.375,0.84,us,us10005zr5,2016-07-04T03:14:32.709Z,"77km NNW of Naze, Japan",earthquake,8.5,5.6,0.082,45,reviewed,us,us
+2016-07-04T02:24:20.810Z,39.4673,73.4369,10,4.7,mb,,72,1.263,1.25,us,us10005zqh,2016-07-04T02:45:24.110Z,"33km SSE of Sary-Tash, Kyrgyzstan",earthquake,4,1.9,0.062,78,reviewed,us,us
+2016-07-04T02:14:30.380Z,29.2387,129.4747,39.32,4.7,mb,,111,2.415,0.99,us,us10005zqf,2016-07-04T03:01:50.885Z,"96km N of Naze, Japan",earthquake,5,8.2,0.077,52,reviewed,us,us
+2016-07-04T02:00:55.940Z,36.3263,140.0904,77.55,4.4,mb,,118,0.125,0.67,us,us10005zqe,2016-07-04T03:30:56.900Z,"2km SSW of Iwase, Japan",earthquake,7.1,5.3,0.203,7,reviewed,us,us
+2016-07-04T01:56:13.000Z,61.5238,-147.943,14.2,2.7,ml,,,,0.78,ak,ak13736830,2016-07-04T02:32:24.275Z,"54km ESE of Lazy Mountain, Alaska",earthquake,0.2,0.2,,,automatic,ak,ak
+2016-07-04T00:55:03.150Z,42.8475,145.4291,39.96,4.6,mb,,134,1.876,0.93,us,us10005zpu,2016-07-04T23:26:07.570Z,"54km SSW of Nemuro, Japan",earthquake,9.9,8.6,0.068,65,reviewed,us,us
+2016-07-04T00:13:02.000Z,-31.43,-71.67,25,4.8,mb,,,,0.86,us,us10005zpe,2016-07-04T00:50:52.749Z,"52km WNW of Illapel, Chile",earthquake,4.6,4.3,0.053,107,reviewed,guc,us
+2016-07-03T23:43:23.590Z,14.3035,-92.4789,19.17,4.5,mb,,140,0.79,1.14,us,us10005zpc,2016-07-04T00:28:17.129Z,"38km SW of Ocos, Guatemala",earthquake,5.9,3.5,0.037,220,reviewed,us,us
+2016-07-03T23:10:57.350Z,2.2353,95.0565,31.19,4.4,mb,,172,2.682,0.49,us,us10005zp9,2016-07-03T23:32:10.833Z,"149km W of Sinabang, Indonesia",earthquake,10.7,3.4,0.117,21,reviewed,us,us
+2016-07-03T21:02:56.000Z,18.9449,-66.8259,7,2.8,Md,6,291.6,0.54527738,0.43,pr,pr16185015,2016-07-04T00:20:26.955Z,"50km N of Hatillo, Puerto Rico",earthquake,2.7,2.9,0,4,reviewed,pr,pr
+2016-07-03T20:56:50.500Z,18.947,-66.8383,9,2.9,Md,8,255.6,0.54258243,0.34,pr,pr16185014,2016-07-04T00:19:06.488Z,"51km N of Hatillo, Puerto Rico",earthquake,1.6,2.7,0,5,reviewed,pr,pr
+2016-07-03T17:32:16.010Z,36.1778,-96.752,8.86,3.1,mb_lg,,75,0.036,0.54,us,us10005zn0,2016-07-03T17:38:49.684Z,"8km NW of Yale, Oklahoma",earthquake,2.1,5.3,0.057,79,reviewed,us,us
+2016-07-03T17:03:42.540Z,57.4729,-33.3505,10,4.5,mb,,91,8.443,0.94,us,us10005zmy,2016-07-03T17:15:31.271Z,"Reykjanes Ridge",earthquake,12.9,2,0.118,21,reviewed,us,us
+2016-07-03T16:13:33.160Z,51.6157,-178.5267,28.81,5.3,mb,,35,0.886,0.69,us,us10005zmh,2016-07-03T19:04:01.789Z,"39km SW of Tanaga Volcano, Alaska",earthquake,7.3,3.2,0.022,683,reviewed,us,us
+2016-07-03T15:56:44.950Z,39.4665,73.4358,10,4.5,mb,,145,1.262,1.3,us,us10005zmd,2016-07-03T17:04:55.182Z,"33km SSE of Sary-Tash, Kyrgyzstan",earthquake,6.5,1.9,0.113,24,reviewed,us,us
+2016-07-03T11:42:52.340Z,34.707,32.9206,10,3.8,mb,,131,0.422,0.6,us,us10005zp0,2016-07-03T21:00:59.552Z,"3km WNW of Ypsonas, Cyprus",earthquake,3.1,2,0.508,1,reviewed,us,us
+2016-07-03T11:11:03.700Z,19.1252,-64.1268,50,2.8,Md,8,324,0.84351805,0.17,pr,pr16185009,2016-07-03T15:06:37.077Z,"93km NNE of Road Town, British Virgin Islands",earthquake,5.6,9.5,0,6,reviewed,pr,pr
+2016-07-03T10:53:20.000Z,19.08,-64.1305,58,2.7,Md,7,327.6,0.80399218,0.21,pr,pr16185008,2016-07-03T13:26:04.928Z,"89km NE of Road Town, British Virgin Islands",earthquake,7.2,9,0,6,reviewed,pr,pr
+2016-07-03T10:12:34.200Z,19.1725,-64.1429,44,2.7,Md,8,324,0.87495909,0.15,pr,pr16185005,2016-07-03T10:43:13.296Z,"97km NNE of Road Town, British Virgin Islands",earthquake,4.6,10.9,0,7,reviewed,pr,pr
+2016-07-03T09:55:28.200Z,18.9965,-64.1768,77,3,Md,5,327.6,0.71056739,0.07,pr,pr16185007,2016-07-03T13:25:02.341Z,"79km NE of Road Town, British Virgin Islands",earthquake,6.4,5.5,0,4,reviewed,pr,pr
+2016-07-03T09:22:16.380Z,-21.0948,-68.8376,119.08,4.7,mb,,66,0.609,0.95,us,us10005zku,2016-07-03T09:41:40.580Z,"152km N of Calama, Chile",earthquake,6.9,7.4,0.088,39,reviewed,us,us
+2016-07-03T08:09:06.030Z,37.6202,72.1055,125.69,4.3,mb,,175,0.365,0.58,us,us10005zkb,2016-07-03T08:53:57.693Z,"47km NNE of Roshtqal'a, Tajikistan",earthquake,6,5.1,0.142,14,reviewed,us,us
+2016-07-03T07:10:16.900Z,18.756,-68.1502,76,3.2,Md,10,158.4,1.02497774,0.63,pr,pr16185006,2016-07-03T13:23:59.911Z,"33km NE of Punta Cana, Dominican Republic",earthquake,5,5.4,0,7,reviewed,pr,pr
+2016-07-03T04:39:05.000Z,61.1366,-153.0448,35,2.7,ml,,,,0.96,ak,ak13735876,2016-07-03T05:13:33.614Z,"74km NNW of Redoubt Volcano, Alaska",earthquake,0.5,454.8,,,automatic,ak,ak
+2016-07-03T02:16:13.730Z,10.5711,-85.0185,10,5.1,mb,,58,0.48,1.13,us,us10005zjh,2016-07-03T02:35:10.622Z,"12km NNW of Tilaran, Costa Rica",earthquake,4.9,1.8,0.03,361,reviewed,us,us
+2016-07-03T01:58:32.410Z,10.6749,-85.155,10,5.3,mb,,51,0.43,1.13,us,us10005zjd,2016-07-03T02:17:34.026Z,"4km E of Fortuna, Costa Rica",earthquake,4.8,1.8,0.025,536,reviewed,us,us
+2016-07-03T00:27:28.000Z,59.8455,-152.9346,102.5,3.1,ml,,,,0.6,ak,ak13735751,2016-07-03T00:54:39.493Z,"62km W of Anchor Point, Alaska",earthquake,0.3,0.4,,,automatic,ak,ak
+2016-07-03T00:16:23.100Z,18.9654,-66.811,52,2.8,Md,11,255.6,0.55426053,0.25,pr,pr16185001,2016-07-03T03:45:13.812Z,"53km N of Hatillo, Puerto Rico",earthquake,1.4,2.7,0,8,reviewed,pr,pr
+2016-07-03T00:03:21.100Z,17.8595,-68.6474,47,3.3,Md,18,234,1.15523346,0.3,pr,pr16185000,2016-07-03T03:30:23.019Z,"57km S of Boca de Yuma, Dominican Republic",earthquake,2,7.7,0,12,reviewed,pr,pr
+2016-07-02T23:50:14.520Z,-20.7964,-176.3577,166.2,4.9,mb,,45,6.286,1.25,us,us10005zj2,2016-07-03T00:09:02.004Z,"124km WNW of Havelu, Tonga",earthquake,11.5,7.5,0.074,57,reviewed,us,us
+2016-07-02T23:29:38.710Z,-7.9063,128.3229,92.01,4.4,mb,,75,5.631,1.36,us,us10005zj0,2016-07-02T23:53:03.689Z,"Kepulauan Barat Daya, Indonesia",earthquake,9.6,8.3,0.117,21,reviewed,us,us
+2016-07-02T22:47:06.100Z,19.1082,-66.0998,24,2.8,Md,9,252,0.79500903,0.2,pr,pr16184026,2016-07-02T23:48:57.631Z,"71km N of San Juan, Puerto Rico",earthquake,1.1,16.7,0,7,reviewed,pr,pr
+2016-07-02T22:14:22.900Z,41.6578333,-109.9391667,-2.99,3.51,ml,24,74,0.2773,0.28,uu,uu60154777,2016-07-05T17:58:54.195Z,"41km WNW of Green River, Wyoming",earthquake,0.72,9.47,0.16,27,reviewed,uu,uu
+2016-07-02T21:23:58.720Z,-24.0728,-67.075,193.63,4.2,mb,,37,1.507,1.1,us,us10005zif,2016-07-02T21:49:50.460Z,"78km WNW of San Antonio de los Cobres, Argentina",earthquake,7.7,8.7,0.152,12,reviewed,us,us
+2016-07-02T20:01:59.800Z,-61.4384,-54.1861,10,4.7,mb,,63,2.269,0.81,us,us10005zhv,2016-07-02T21:34:59.337Z,"South Shetland Islands",earthquake,8.2,1.9,0.11,25,reviewed,us,us
+2016-07-02T19:00:14.000Z,60.4415,-150.9334,47.8,2.6,ml,,,,0.73,ak,ak13735520,2016-07-02T19:32:23.555Z,"8km SE of Soldotna, Alaska",earthquake,0.3,0.8,,,automatic,ak,ak
+2016-07-02T13:27:53.400Z,18.9477,-66.722,53,3.1,Md,4,309.6,0.59737966,0.33,pr,pr16184024,2016-07-02T16:53:15.060Z,"52km NNE of Hatillo, Puerto Rico",earthquake,3.1,5.3,0,3,reviewed,pr,pr
+2016-07-02T13:08:05.200Z,19.0072,-66.763,38,2.7,Md,4,327.6,0.65577016,0.15,pr,pr16184022,2016-07-02T16:15:27.875Z,"58km N of Hatillo, Puerto Rico",earthquake,1.8,6,0,4,reviewed,pr,pr
+2016-07-02T13:00:22.300Z,18.9901,-66.7813,54,3.3,Md,11,237.6,0.60636282,0.34,pr,pr16184020,2016-07-02T13:49:14.507Z,"55km N of Hatillo, Puerto Rico",earthquake,1.7,4.7,0,11,reviewed,pr,pr
+2016-07-02T12:57:54.100Z,18.9319,-66.8245,6,2.9,Md,10,234,0.53449759,0.25,pr,pr16184019,2016-07-02T13:33:29.722Z,"49km N of Hatillo, Puerto Rico",earthquake,1.9,1.8,0,9,reviewed,pr,pr
+2016-07-02T12:51:14.900Z,19.0235,-66.7985,27,2.9,Md,7,298.8,0.62702407,0.31,pr,pr16184018,2016-07-02T13:05:22.062Z,"59km N of Hatillo, Puerto Rico",earthquake,1.8,15.1,0,7,reviewed,pr,pr
+2016-07-02T12:44:07.500Z,19.0069,-66.833,43,3.1,Md,7,298.8,0.59737966,0.18,pr,pr16184021,2016-07-02T16:16:30.383Z,"57km N of Hatillo, Puerto Rico",earthquake,1.5,4.5,0,4,reviewed,pr,pr
+2016-07-02T12:10:15.040Z,36.7954,-97.6182,3.37,3.1,mb_lg,,22,0.201,0.44,us,us10005zgq,2016-07-02T12:20:25.716Z,"10km E of Medford, Oklahoma",earthquake,1.1,7.2,0.052,95,reviewed,us,us
+2016-07-02T09:28:55.410Z,-10.3339,119.2328,49.21,4.9,mb,,84,3.41,0.53,us,us10005zfs,2016-07-02T09:55:55.839Z,"65km S of Bogorawatu, Indonesia",earthquake,6.6,7.1,0.074,58,reviewed,us,us
+2016-07-02T08:36:47.217Z,38.0711,-117.6404,5.3,2.6,ml,35,40.26,0.274,0.1131,nn,nn00550291,2016-07-03T18:06:31.885Z,"36km W of Tonopah, Nevada",earthquake,0.58,1,0.31,15,reviewed,nn,nn
+2016-07-02T08:09:11.698Z,38.0711,-117.6386,5.3,2.8,ml,42,54.61,0.274,0.14,nn,nn00550288,2016-07-03T18:10:32.744Z,"35km W of Tonopah, Nevada",earthquake,0.57,0.9,0.43,18,reviewed,nn,nn
+2016-07-02T06:57:08.100Z,18.9943,-66.8028,8,3,Md,9,259.2,0.60007461,0.28,pr,pr16184017,2016-07-02T11:56:24.740Z,"56km N of Hatillo, Puerto Rico",earthquake,1.4,2.5,0,8,reviewed,pr,pr
+2016-07-02T06:54:17.300Z,19,-66.8277,36,2.8,Md,8,259.2,0.59288809,0.18,pr,pr16184016,2016-07-02T11:39:50.717Z,"56km N of Hatillo, Puerto Rico",earthquake,1.1,4.7,0,8,reviewed,pr,pr
+2016-07-02T06:51:15.300Z,19.0072,-66.8503,13,2.9,Md,13,248.4,0.59109146,0.18,pr,pr16184015,2016-07-02T11:34:05.897Z,"57km N of Hatillo, Puerto Rico",earthquake,1.2,2.1,0,8,reviewed,pr,pr
+2016-07-02T06:50:27.300Z,18.9776,-66.837,49,2.7,Md,8,259.2,0.56953189,0.18,pr,pr16184014,2016-07-02T10:38:26.433Z,"54km N of Hatillo, Puerto Rico",earthquake,1.3,3,0,5,reviewed,pr,pr
+2016-07-02T06:35:01.240Z,-4.7289,-80.6765,48.58,4.6,mb,,140,2.681,0.61,us,us10005zf8,2016-07-02T06:53:35.895Z,"12km NNW of Querecotillo, Peru",earthquake,5.3,10.6,0.099,30,reviewed,us,us
+2016-07-02T06:22:55.630Z,37.3909,-98.0102,2.2,3.3,mb_lg,,86,0.093,0.19,us,us10005zf1,2016-07-02T06:32:40.521Z,"11km N of Harper, Kansas",earthquake,2.7,5.8,0.051,102,reviewed,us,us
+2016-07-02T06:22:52.200Z,19.0074,-66.791,42,2.8,Md,8,284.4,0.58300662,0.37,pr,pr16184012,2016-07-02T10:00:09.556Z,"57km N of Hatillo, Puerto Rico",earthquake,2.2,8.1,0,7,reviewed,pr,pr
+2016-07-02T06:17:14.900Z,19.0179,-66.856,10,2.9,Md,14,241.2,0.59737966,0.49,pr,pr16184013,2016-07-02T10:19:15.866Z,"58km N of Hatillo, Puerto Rico",earthquake,1.7,3.5,0,12,reviewed,pr,pr
+2016-07-02T05:48:39.900Z,18.943,-66.8239,68,2.7,Md,3,324,0.59648135,0.15,pr,pr16184011,2016-07-02T09:53:03.604Z,"50km N of Hatillo, Puerto Rico",earthquake,2.7,3.5,0,3,reviewed,pr,pr
+2016-07-02T05:45:20.200Z,18.9813,-66.763,27,2.8,Md,4,313.2,0.60726113,0.18,pr,pr16184010,2016-07-02T09:49:42.929Z,"55km N of Hatillo, Puerto Rico",earthquake,2.5,12.4,0,4,reviewed,pr,pr
+2016-07-02T05:37:05.200Z,18.9528,-66.7914,66,2.9,Md,4,324,0.60276956,0.36,pr,pr16184009,2016-07-02T09:19:39.330Z,"51km N of Hatillo, Puerto Rico",earthquake,5.3,7.3,0,4,reviewed,pr,pr
+2016-07-02T05:35:49.060Z,-20.5751,169.799,125.67,5.3,mb,,53,1.882,0.87,us,us10005zes,2016-07-02T05:52:09.991Z,"126km SSE of Isangel, Vanuatu",earthquake,8.2,6.7,0.077,57,reviewed,us,us
+2016-07-02T05:27:14.000Z,19.0188,-66.8086,35,3,Md,12,241.2,0.60007461,0.2,pr,pr16184006,2016-07-02T05:46:12.597Z,"58km N of Hatillo, Puerto Rico",earthquake,0.9,3.7,0,11,reviewed,pr,pr
+2016-07-02T05:04:54.030Z,36.8192,-97.6195,5,2.8,mb_lg,,53,0.195,0.13,us,us10005zei,2016-07-02T05:20:11.679Z,"10km E of Medford, Oklahoma",earthquake,0.9,2,0.065,61,reviewed,us,us
+2016-07-02T04:35:32.500Z,19.2117,-64.7806,49,2.8,Md,8,288,0.80489049,0.41,pr,pr16184007,2016-07-02T09:05:01.875Z,"89km N of Road Town, British Virgin Islands",earthquake,9.4,21.9,0,7,reviewed,pr,pr
+2016-07-02T03:49:51.470Z,29.3464,51.3153,30.22,4.8,mb,,72,6.178,0.56,us,us10005ze5,2016-07-02T04:08:20.070Z,"13km NE of Borazjan, Iran",earthquake,8.1,6,0.047,139,reviewed,us,us
+2016-07-02T02:59:17.400Z,18.8945,-66.8574,21,2.6,Md,6,309.6,0.48688688,0.2,pr,pr16184005,2016-07-02T04:15:49.908Z,"45km N of Hatillo, Puerto Rico",earthquake,1.4,14.8,0,6,reviewed,pr,pr
+2016-07-02T02:42:29.100Z,19.0158,-66.855,42,3,Md,10,280.8,0.59648135,0.27,pr,pr16184000,2016-07-02T02:58:58.846Z,"58km N of Hatillo, Puerto Rico",earthquake,1.5,4.9,0,6,reviewed,pr,pr
+2016-07-02T02:30:09.400Z,18.8675,-66.8113,76,2.9,Md,6,280.8,0.52102286,0.27,pr,pr16184004,2016-07-02T04:05:45.264Z,"42km N of Hatillo, Puerto Rico",earthquake,3.3,3.8,0,5,reviewed,pr,pr
+2016-07-02T01:47:49.240Z,43.3043,146.9184,48.03,5,mb,,135,3.058,1.25,us,us10005zdc,2016-07-02T02:07:46.089Z,"57km SSE of Shikotan, Russia",earthquake,8.6,6.6,0.035,255,reviewed,us,us
+2016-07-02T01:10:09.200Z,19.0011,-66.8564,20,2.7,Md,7,316.8,0.58300662,0.2,pr,pr16184002,2016-07-02T03:45:00.852Z,"57km N of Hatillo, Puerto Rico",earthquake,1.4,17.8,0,5,reviewed,pr,pr
+2016-07-01T23:49:40.150Z,36.2855,140.7771,34.99,4.4,mb,,220,0.477,0.97,us,us10005zcr,2016-07-02T00:08:36.129Z,"16km ESE of Oarai, Japan",earthquake,8.7,6.5,0.13,17,reviewed,us,us
+2016-07-01T23:38:27.490Z,41.748,-109.8246667,3.17,3.4,ml,20,160,0.3414,0.22,uu,uu60154687,2016-07-05T21:07:08.687Z,"38km NW of Green River, Wyoming",earthquake,0.83,2.34,0.244,7,reviewed,uu,uu
+2016-07-01T23:29:11.170Z,44.8263333,-111.4098333,11.78,2.64,ml,53,33,0.015,0.23,mb,mb80159159,2016-07-02T13:58:37.158Z,"30km NW of West Yellowstone, Montana",earthquake,0.28,0.38,0.172,21,reviewed,mb,mb
+2016-07-01T22:42:08.510Z,-15.4174,-173.1709,35.25,4.6,mb,,92,2.016,1.23,us,us10005zcc,2016-07-01T23:01:33.003Z,"85km NE of Hihifo, Tonga",earthquake,9.8,8.1,0.072,57,reviewed,us,us
+2016-07-01T22:20:08.540Z,-30.8138,-71.4697,43.58,4.6,mwr,,71,0.199,0.83,us,us10005zbz,2016-07-01T22:37:10.282Z,"35km SW of Ovalle, Chile",earthquake,4.9,4.9,0.044,49,reviewed,us,us
+2016-07-01T21:18:02.470Z,47.9926667,-121.8706667,17.64,2.63,ml,25,56,0.09529,0.26,uw,uw61176281,2016-07-01T23:04:12.624Z,"11km ENE of Three Lakes, Washington",earthquake,0.43,1,0.144,94,reviewed,uw,uw
+2016-07-01T20:18:29.660Z,47.9971667,-121.8856667,18.38,3.01,ml,29,52,0.09893,0.3,uw,uw61176216,2016-07-01T23:03:58.665Z,"11km SSE of Granite Falls, Washington",earthquake,0.43,1.02,0.164,124,reviewed,uw,uw
+2016-07-01T20:06:26.000Z,52.3227,-173.4051,178.1,2.5,ml,,,,0.44,ak,ak13736808,2016-07-04T02:32:14.696Z,"56km ENE of Atka, Alaska",earthquake,11.5,0.4,,,reviewed,ak,ak
+2016-07-01T19:22:40.290Z,24.9506,95.3854,132.32,4.5,mb,,53,1.221,1.02,us,us10005zam,2016-07-01T20:54:44.369Z,"119km SE of Phek, India",earthquake,5.9,9.3,0.14,15,reviewed,us,us
+2016-07-01T18:46:01.000Z,59.8021,-153.3559,123.4,3.3,ml,,,,0.54,ak,ak13734405,2016-07-04T02:32:55.001Z,"83km SSW of Redoubt Volcano, Alaska",earthquake,0.2,0.1,,,reviewed,ak,ak
+2016-07-01T18:36:27.990Z,47.9955,-121.8761667,20.13,3.4,ml,32,53,0.09767,0.23,uw,uw61176166,2016-07-02T00:23:22.805Z,"11km ENE of Three Lakes, Washington",earthquake,0.35,0.93,0.186,140,reviewed,uw,uw
+2016-07-01T18:30:21.120Z,16.4709,-46.5153,10,4.8,mb,,155,14.201,1.22,us,us10005za4,2016-07-01T20:50:55.848Z,"Northern Mid-Atlantic Ridge",earthquake,10.6,1.9,0.085,43,reviewed,us,us
+2016-07-01T17:47:48.120Z,2.0939,128.3885,93.42,4.8,mb,,129,1.663,1.11,us,us10005z9s,2016-07-01T20:44:07.213Z,"58km NE of Tobelo, Indonesia",earthquake,10.3,8.6,0.099,31,reviewed,us,us
+2016-07-01T17:14:39.700Z,48.047,-27.9958,10,4.4,mb,,147,19.187,0.74,us,us10005z9h,2016-07-01T20:40:36.171Z,"Northern Mid-Atlantic Ridge",earthquake,10,1.9,0.091,35,reviewed,us,us
+2016-07-01T16:58:46.540Z,-36.0786,-97.079,10,4.8,mb,,189,19.908,0.97,us,us10005z8f,2016-07-01T17:14:16.109Z,"West Chile Rise",earthquake,10.8,1.9,0.091,37,reviewed,us,us
+2016-07-01T16:49:49.990Z,40.3746667,-124.9326667,5.17,3.69,mw,36,277,0.4654,0.16,nc,nc72657351,2016-07-01T19:01:00.519Z,"60km WSW of Ferndale, California",earthquake,0.66,0.58,,8,reviewed,nc,nc
+2016-07-01T16:43:47.000Z,63.0757,-150.8902,118.6,3.2,ml,,,,0.6,ak,ak13734296,2016-07-04T02:29:36.992Z,"92km NNW of Talkeetna, Alaska",earthquake,0.2,0.3,,,reviewed,ak,ak
+2016-07-01T16:02:17.000Z,51.7499,177.9664,134.8,2.5,ml,,,,0.49,ak,ak13736790,2016-07-04T02:32:07.098Z,"43km WSW of Little Sitkin Island, Alaska",earthquake,3.4,0.4,,,reviewed,ak,ak
+2016-07-01T15:56:35.240Z,34.1168333,-116.9226667,6.49,2.93,ml,133,16,0.02568,0.15,ci,ci37618152,2016-07-02T15:57:57.793Z,"14km S of Big Bear Lake, CA",earthquake,0.09,0.33,0.127,214,reviewed,ci,ci
+2016-07-01T14:58:55.260Z,38.8825,70.6257,10,5.4,mb,,48,0.268,1.42,us,us10005z7c,2016-07-01T15:56:12.040Z,"27km SE of Gharm, Tajikistan",earthquake,3.8,1.6,0.089,43,reviewed,us,us
+2016-07-01T13:48:26.880Z,36.3899,69.7794,166.11,4.3,mb,,91,0.974,0.64,us,us10005z45,2016-07-01T21:07:23.291Z,"21km SSW of Farkhar, Afghanistan",earthquake,5.2,9.9,0.307,3,reviewed,us,us
+2016-07-01T13:07:43.500Z,18.7828,-64.7605,80,3.3,Md,11,255.6,0.3880722,0.2,pr,pr16183002,2016-07-01T13:45:15.234Z,"43km NNW of Road Town, British Virgin Islands",earthquake,3.2,1.9,0,10,reviewed,pr,pr
+2016-07-01T12:37:45.230Z,36.586,-121.1276667,8.48,2.91,md,86,46,0.05145,0.09,nc,nc72657271,2016-07-01T18:21:06.684Z,"25km NE of Soledad, California",earthquake,0.1,0.24,0.2,133,reviewed,nc,nc
+2016-07-01T10:58:22.500Z,31.4627,-40.7853,10,4.7,mb,,71,12.557,0.54,us,us10005z2v,2016-07-02T05:21:14.114Z,"Northern Mid-Atlantic Ridge",earthquake,10.6,1.9,0.048,134,reviewed,us,us
+2016-07-01T10:27:20.210Z,36.2206,-97.2894,6.23,2.9,mb_lg,,54,0.334,0.3,us,us10005z2c,2016-07-01T10:41:04.470Z,"7km S of Perry, Oklahoma",earthquake,1.1,7.3,0.056,82,reviewed,us,us
+2016-07-01T09:07:21.000Z,55.3725,-158.414,25.2,2.9,ml,,,,0.61,ak,ak13734171,2016-07-04T02:30:51.572Z,"97km NE of Chernabura Island, Alaska",earthquake,0.4,1,,,reviewed,ak,ak
+2016-07-01T08:32:54.000Z,63.2325,-151.0718,5.7,2.5,ml,,,,0.62,ak,ak13734157,2016-07-04T02:28:32.859Z,"107km W of Cantwell, Alaska",earthquake,0.1,0.1,,,reviewed,ak,ak
+2016-07-01T08:29:14.174Z,38.5758,-115.9663,0.3,2.7,ml,7,127.62,0.375,0.2454,nn,nn00550147,2016-07-02T02:36:11.582Z,"46km WSW of Currant, Nevada",earthquake,,4,0,1,reviewed,nn,nn
+2016-07-01T08:23:40.930Z,23.9555,122.3606,20.28,4.7,mb,,84,0.733,0.71,us,us10005z1w,2016-07-01T08:38:56.506Z,"76km E of Hualian, Taiwan",earthquake,3.8,6.1,0.11,25,reviewed,us,us
+2016-07-01T07:26:15.660Z,36.282,-97.52,1.17,3.3,mb_lg,,55,0.206,0.1,us,us10005z1e,2016-07-01T07:36:21.387Z,"20km W of Perry, Oklahoma",earthquake,0.6,5.8,0.05,104,reviewed,us,us
+2016-07-01T06:52:30.000Z,51.8372,-174.6054,49.2,3.1,ml,,,,0.5,ak,ak13734071,2016-07-04T02:32:31.845Z,"48km SW of Atka, Alaska",earthquake,2.6,1.5,,,reviewed,ak,ak
+2016-07-01T06:48:03.600Z,0.9562,127.0844,43.42,4.5,mb,,155,0.336,1.01,us,us10005z16,2016-07-01T08:13:36.984Z,"36km WNW of Kota Ternate, Indonesia",earthquake,6.2,8.8,0.108,25,reviewed,us,us
+2016-07-01T06:21:14.000Z,52.3792,-173.0777,211.2,3,ml,,,,0.42,ak,ak13734055,2016-07-04T02:30:44.396Z,"79km ENE of Atka, Alaska",earthquake,5.8,0.8,,,reviewed,ak,ak
+2016-07-01T05:39:58.360Z,33.5167,131.754,78.97,4.8,mb,,54,0.832,1.27,us,us10005z0q,2016-07-01T05:58:19.674Z,"5km SSE of Kunisaki-shi, Japan",earthquake,6.1,6.5,0.04,191,reviewed,us,us
+2016-07-01T05:33:24.450Z,-12.6367,-77.0346,46.63,3.9,mb,,178,0.672,1.43,us,us10005zi6,2016-07-02T20:45:50.459Z,"34km WSW of Chilca, Peru",earthquake,7.5,17.3,0.511,1,reviewed,us,us
+2016-07-01T04:19:52.100Z,39.4623,73.3029,40.37,4.2,mb,,88,1.16,0.72,us,us10005z05,2016-07-01T04:50:09.165Z,"29km S of Sary-Tash, Kyrgyzstan",earthquake,7.4,11.3,0.125,18,reviewed,us,us
+2016-07-01T03:52:27.000Z,51.6375,176.1751,48.4,2.9,ml,,,,0.71,ak,ak13733896,2016-07-04T02:32:38.461Z,"81km SSE of Buldir Island, Alaska",earthquake,3.7,13.1,,,reviewed,ak,ak
+2016-07-01T01:53:29.790Z,18.8564,145.4774,219.03,4.5,mb,,81,3.607,1,us,us10005yzm,2016-07-01T02:12:48.654Z,"22km WNW of Agrihan, Northern Mariana Islands",earthquake,9.6,8.1,0.068,63,reviewed,us,us
+2016-07-01T01:08:48.000Z,60.8081,-147.145,13.1,3.6,ml,,,,0.68,ak,ak13733803,2016-07-04T02:29:19.061Z,"56km SW of Valdez, Alaska",earthquake,0.2,0.2,,,reviewed,ak,ak
+2016-07-01T00:47:13.100Z,18.5585,-66.1352,103,2.6,Md,5,244.8,0.3880722,0.27,pr,pr16183000,2016-07-01T03:53:27.854Z,"10km NNW of San Juan, Puerto Rico",earthquake,4.5,1.8,0,5,reviewed,pr,pr
+2016-07-01T00:30:18.950Z,-18.9465,-174.6115,138.29,4.5,mb,,52,4.433,0.84,us,us10005yza,2016-07-01T01:42:52.844Z,"73km WSW of Neiafu, Tonga",earthquake,10.2,7,0.041,172,reviewed,us,us
+2016-07-01T00:13:26.000Z,68.1305,-136.3763,23.9,2.7,ml,,,,0.54,ak,ak13736724,2016-07-04T02:31:37.204Z,"99km NW of Fort McPherson, Canada",earthquake,3.8,3.1,,,reviewed,ak,ak
+2016-06-30T23:35:00.100Z,17.9638,-68.578,65,3.8,Md,18,194.4,1.11840253,0.56,pr,pr16182026,2016-07-01T00:15:01.468Z,"45km S of Boca de Yuma, Dominican Republic",earthquake,2.7,7.1,0,15,reviewed,pr,pr
+2016-06-30T23:05:00.000Z,36.7021,137.9673,15.84,4.5,mb,,46,0.246,0.55,us,us10005yyt,2016-06-30T23:30:53.938Z,"19km WNW of Nagano-shi, Japan",earthquake,4.6,4.4,0.055,96,reviewed,us,us
+2016-06-30T22:25:04.030Z,36.4532,-98.6999,6.57,3.8,mb_lg,,64,0.036,0.68,us,us10005yy6,2016-07-01T00:26:16.329Z,"28km NW of Fairview, Oklahoma",earthquake,1.7,3.8,0.049,107,reviewed,us,us
+2016-06-30T20:50:39.130Z,30.0565,70.3179,24.63,4.6,mb,,134,4.599,0.91,us,us10005ywq,2016-07-05T22:02:21.203Z,"30km W of Dera Ghazi Khan, Pakistan",earthquake,10.7,6.3,0.06,82,reviewed,us,us
+2016-06-30T20:48:32.000Z,63.1219,-149.3512,75.9,2.7,ml,,,,0.66,ak,ak13733680,2016-06-30T21:15:19.494Z,"36km SW of Cantwell, Alaska",earthquake,0.2,0.5,,,automatic,ak,ak
+2016-06-30T18:23:06.690Z,-3.8095,-102.84,10,4.9,mb,,156,21.652,1.22,us,us10005yu6,2016-07-05T20:15:26.479Z,"Central East Pacific Rise",earthquake,7.5,1.9,0.032,302,reviewed,us,us
+2016-06-30T17:08:57.670Z,-4.8333,152.7377,57.59,4.6,mb,,87,0.857,0.84,us,us10005ysy,2016-07-05T15:51:06.420Z,"52km SW of Taron, Papua New Guinea",earthquake,8.1,6.8,0.056,96,reviewed,us,us
+2016-06-30T17:07:28.000Z,56.7091,-153.4141,22.3,2.8,ml,,,,0.74,ak,ak13733364,2016-06-30T17:24:36.837Z,"98km SSE of Larsen Bay, Alaska",earthquake,1.6,0.4,,,automatic,ak,ak
+2016-06-30T16:26:58.160Z,-5.5882,147.1365,196.24,4.5,mb,,65,3.528,1.09,us,us10005ysh,2016-06-30T17:30:20.734Z,"126km N of Lae, Papua New Guinea",earthquake,8.5,4.6,0.086,40,reviewed,us,us
+2016-06-30T15:20:23.390Z,52.7463,155.7973,269.19,4.6,mb,,51,1.207,0.7,us,us10005yrg,2016-06-30T17:04:23.269Z,"147km NNW of Ozernovskiy, Russia",earthquake,9,5.2,0.026,437,reviewed,us,us
+2016-06-30T15:09:08.000Z,53.8065,-166.0022,65.8,2.7,ml,,,,0.29,ak,ak13733276,2016-06-30T17:24:43.974Z,"35km ESE of Unalaska, Alaska",earthquake,4.3,1.2,,,reviewed,ak,ak
+2016-06-30T12:20:19.470Z,-29.1198,61.1158,10,5.1,mb,,68,9.29,0.96,us,us10005ypj,2016-06-30T12:38:09.851Z,"Southwest Indian Ridge",earthquake,10.6,1.9,0.075,58,reviewed,us,us
+2016-06-30T11:43:11.550Z,0.505,123.5726,256.87,5.2,mb,,57,1.732,1.22,us,us10005yp8,2016-06-30T11:59:52.772Z,"41km S of Pimpi, Indonesia",earthquake,4.4,6.5,0.057,99,reviewed,us,us
+2016-06-30T11:30:34.870Z,-16.0928,167.4211,39.65,5.8,mb,,57,4.662,1.31,us,us10005yp3,2016-06-30T16:56:38.000Z,"2km N of Lakatoro, Vanuatu",earthquake,7.5,3.5,0.046,172,reviewed,us,us
+2016-06-30T10:46:19.540Z,1.0093,121.7589,55.44,4.9,mb,,57,0.982,1.25,us,us10005ynr,2016-06-30T11:03:53.130Z,"16km ESE of Bunobogu, Indonesia",earthquake,6.1,6.6,0.062,81,reviewed,us,us
+2016-06-30T10:34:23.120Z,10.8696,-86.3809,36.02,4.6,mb,,166,0.787,1.37,us,us10005yni,2016-06-30T11:12:32.590Z,"70km SW of San Juan del Sur, Nicaragua",earthquake,6.1,7.7,0.038,205,reviewed,us,us
+2016-06-30T09:41:08.790Z,44.2073333,-110.7768333,0.24,2.94,ml,23,96,0.06669,0.23,uu,uu60154532,2016-06-30T15:03:55.751Z,"28km S of Old Faithful Geyser, Wyoming",earthquake,0.54,0.28,0.329,16,reviewed,uu,uu
+2016-06-30T07:20:41.400Z,19.1023,-64.8441,28,3.4,Md,16,266.4,0.71416065,0.18,pr,pr16182024,2016-06-30T15:38:20.194Z,"79km NNW of Road Town, British Virgin Islands",earthquake,1.6,12.2,0,11,reviewed,pr,pr
+2016-06-30T07:09:42.010Z,38.3395,72.9194,10,4.5,mb,,95,1.282,1.36,us,us10005yl7,2016-06-30T07:26:17.691Z,"92km SW of Karakul, Tajikistan",earthquake,3.6,1.9,0.101,29,reviewed,us,us
+2016-06-30T06:35:51.000Z,60.6664,-151.6927,68.4,2.5,ml,,,,0.61,ak,ak13732897,2016-06-30T06:53:37.795Z,"22km W of Nikiski, Alaska",earthquake,0.3,0.5,,,automatic,ak,ak
+2016-06-30T05:26:01.100Z,19.0618,-64.8711,8,2.5,Md,4,298.8,0.70966907,0.02,pr,pr16182020,2016-06-30T08:10:14.084Z,"76km NNW of Road Town, British Virgin Islands",earthquake,0.9,1.6,0,3,reviewed,pr,pr
+2016-06-30T05:01:39.500Z,19.1203,-64.7959,35,2.8,Md,9,284.4,0.71955054,0.17,pr,pr16182009,2016-06-30T05:15:14.665Z,"80km NNW of Road Town, British Virgin Islands",earthquake,3.2,12.5,0,6,reviewed,pr,pr
+2016-06-30T04:46:07.000Z,18.2262,-67.1979,13,2.8,Md,18,140.4,0.1176793,0.25,pr,pr16182007,2016-06-30T05:01:04.172Z,"6km WNW of Mayaguez, Puerto Rico",earthquake,0.5,0.7,0,13,reviewed,pr,pr
+2016-06-30T03:13:26.800Z,18.9731,-64.7687,70,2.9,Md,9,270,0.57043021,0.33,pr,pr16182003,2016-06-30T03:32:43.239Z,"63km NNW of Road Town, British Virgin Islands",earthquake,7.5,8,0,7,reviewed,pr,pr
+2016-06-30T02:10:00.100Z,19.149,-64.8048,16,2.5,Md,5,306,0.80489049,0.11,pr,pr16182017,2016-06-30T05:59:23.685Z,"83km NNW of Road Town, British Virgin Islands",earthquake,4.5,9.1,0,4,reviewed,pr,pr
+2016-06-30T01:35:44.400Z,19.0188,-64.7955,61,2.8,Md,5,291.6,0.62253249,0.1,pr,pr16182013,2016-06-30T05:36:20.406Z,"69km NNW of Road Town, British Virgin Islands",earthquake,5.3,6.9,0,4,reviewed,pr,pr
+2016-06-30T01:14:37.000Z,19.0235,-64.7918,55,3.4,Md,19,266.4,0.62522744,0.25,pr,pr16182002,2016-06-30T01:50:21.646Z,"69km NNW of Road Town, British Virgin Islands",earthquake,2.9,5,0,16,reviewed,pr,pr
+2016-06-30T00:58:41.000Z,59.9941,-151.5562,34.2,2.6,ml,,,,0.62,ak,ak13732846,2016-06-30T01:16:29.544Z,"28km NNE of Anchor Point, Alaska",earthquake,0.4,0.4,,,automatic,ak,ak
+2016-06-30T00:40:15.300Z,19.0904,-64.8308,38,3.2,Md,10,277.2,0.69978761,0.15,pr,pr16182001,2016-06-30T01:03:11.070Z,"77km NNW of Road Town, British Virgin Islands",earthquake,1.3,4.8,0,9,reviewed,pr,pr
+2016-06-30T00:18:03.400Z,19.0715,-64.8561,8,2.9,Md,10,277.2,0.68990614,0.23,pr,pr16182000,2016-06-30T00:56:22.612Z,"76km NNW of Road Town, British Virgin Islands",earthquake,2.3,3.4,0,8,reviewed,pr,pr
+2016-06-29T23:39:02.900Z,19.1084,-64.8515,32,2.9,Md,7,291.6,0.7231438,0.1,pr,pr16181007,2016-06-30T00:48:59.355Z,"80km NNW of Road Town, British Virgin Islands",earthquake,2.5,11,0,6,reviewed,pr,pr
+2016-06-29T23:37:48.400Z,19.0879,-64.8795,11,4,Ml,21,262.8,0.71236402,0.28,pr,pr16181006,2016-06-30T00:35:56.388Z,"58km NNW of Road Town, British Virgin Islands",earthquake,2.7,3.7,0,0,reviewed,pr,pr
+2016-06-29T23:13:58.000Z,65.5815,-162.6871,66.1,3.2,ml,,,,0.72,ak,ak13732774,2016-06-30T01:03:17.822Z,"146km S of Kotzebue, Alaska",earthquake,1.1,2,,,reviewed,ak,ak
+2016-06-29T22:56:14.520Z,37.5122,57.504,10,4.7,mb,,58,0.64,1.09,us,us10005yhx,2016-06-29T23:30:20.933Z,"16km ENE of Bojnurd, Iran",earthquake,5.4,1.9,0.061,83,reviewed,us,us
+2016-06-29T22:33:21.560Z,-33.6464,77.8741,10,4.8,mb,,71,4.148,0.52,us,us10005yht,2016-06-29T23:37:52.048Z,"Mid-Indian Ridge",earthquake,11.6,1.9,0.088,40,reviewed,us,us
+2016-06-29T22:03:46.520Z,-11.1022,161.6873,10,4.9,mb,,61,2.38,0.8,us,us10005yhi,2016-06-29T22:33:35.716Z,"76km SSW of Kirakira, Solomon Islands",earthquake,8.9,1.8,0.056,101,reviewed,us,us
+2016-06-29T18:50:00.000Z,51.8707,-173.5857,183.4,2.9,ml,,,,0.49,ak,ak13732636,2016-06-29T19:38:32.822Z,"55km SE of Atka, Alaska",earthquake,6.2,1.1,,,reviewed,ak,ak
+2016-06-29T18:12:45.280Z,39.8826,143.8174,10,5,mb,,136,2.188,1.61,us,us2000680g,2016-06-29T18:27:01.901Z,"162km E of Miyako, Japan",earthquake,8.1,1.8,0.041,192,reviewed,us,us
+2016-06-29T18:02:31.000Z,53.6549,-166.5875,81.4,2.8,ml,,,,0.31,ak,ak13732583,2016-06-29T18:40:10.744Z,"24km S of Unalaska, Alaska",earthquake,1.5,0.2,,,reviewed,ak,ak
+2016-06-29T17:19:17.750Z,50.4338,-175.7209,10,5.1,mb,,82,1.675,0.76,us,us200067zz,2016-06-29T21:43:55.888Z,"173km SSE of Adak, Alaska",earthquake,7.5,1.8,0.024,559,reviewed,us,us
+2016-06-29T16:19:41.080Z,12.9678,-90.9576,10,4.1,mb,,209,1.705,1.25,us,us10005zij,2016-07-02T22:42:42.748Z,"106km S of Puerto San Jose, Guatemala",earthquake,4.4,2,0.101,27,reviewed,us,us
+2016-06-29T15:52:08.890Z,54.2202,163.3218,35,4.3,mb,,136,3.029,1.07,us,us200067zf,2016-06-29T21:23:35.114Z,"203km WSW of Nikol'skoye, Russia",earthquake,6.4,1.8,0.078,47,reviewed,us,us
+2016-06-29T15:23:11.040Z,27.4594,126.5084,183.59,4.6,mb,,51,1.69,0.73,us,us200067z5,2016-06-29T18:41:32.838Z,"173km NW of Ishikawa, Japan",earthquake,8.2,6.9,0.04,186,reviewed,us,us
+2016-06-29T15:15:39.100Z,34.9892,-97.797,4.072,2.8,ml,,152,,0.48,us,us200067yy,2016-06-29T22:05:31.043Z,"12km ENE of Ninnekah, Oklahoma",earthquake,2.7,7.8,,,reviewed,tul,tul
+2016-06-29T15:10:11.850Z,41.1516667,-123.509,36.95,2.51,md,27,66,0.1338,0.24,nc,nc72656701,2016-06-30T03:15:04.118Z,"25km NNE of Willow Creek, California",earthquake,0.49,0.46,0.097,22,reviewed,nc,nc
+2016-06-29T14:15:17.350Z,35.0032,-97.7854,5,2.8,mb_lg,,102,0.368,0.46,us,us200067yi,2016-06-29T14:31:32.495Z,"14km ESE of Chickasha, Oklahoma",earthquake,1.7,1.8,0.061,70,reviewed,us,us
+2016-06-29T13:24:32.130Z,33.7958,35.3137,13.89,3.7,mb,,108,2.01,0.82,us,us10005yg6,2016-06-29T21:05:05.212Z,"19km WSW of Beirut, Lebanon",earthquake,5.8,7.4,0.356,2,reviewed,us,us
+2016-06-29T12:25:44.000Z,54.7292,-161.7761,46,4.8,ml,,,,0.9,ak,ak13732334,2016-06-29T16:30:59.000Z,"79km SE of Cold Bay, Alaska",earthquake,0.7,0.4,,,reviewed,ak,ak
+2016-06-29T11:40:24.000Z,57.0853,-157.517,2.8,2.5,ml,,,,0.96,ak,ak13732324,2016-06-29T12:05:25.966Z,"119km NE of Chignik Lake, Alaska",earthquake,0.9,0.3,,,automatic,ak,ak
+2016-06-29T11:19:49.000Z,59.6872,-151.584,47.2,2.6,ml,,,,0.63,ak,ak13732284,2016-06-29T11:39:11.421Z,"1km NW of Diamond Ridge, Alaska",earthquake,0.3,0.5,,,automatic,ak,ak
+2016-06-29T11:17:37.650Z,-19.8586,-11.8531,10,5.1,mb,,51,27.223,0.78,us,us200067xt,2016-06-29T11:37:18.742Z,"Southern Mid-Atlantic Ridge",earthquake,11.6,1.9,0.08,50,reviewed,us,us
+2016-06-29T11:07:08.450Z,-19.8458,-11.984,10,5.2,mb,,44,27.268,1.08,us,us200067xj,2016-06-29T11:26:41.632Z,"Southern Mid-Atlantic Ridge",earthquake,11.7,1.9,0.063,84,reviewed,us,us
+2016-06-29T10:39:14.300Z,18.9759,-65.489,67,2.7,Md,5,248.4,0.69170277,0.4,pr,pr16181002,2016-06-29T11:30:36.360Z,"70km NNE of Luquillo, Puerto Rico",earthquake,8.5,11.8,0,4,reviewed,pr,pr
+2016-06-29T10:08:13.000Z,57.1672,-157.7518,0.5,2.6,ml,,,,0.85,ak,ak13732261,2016-06-29T10:30:34.853Z,"118km NNE of Chignik Lake, Alaska",earthquake,0.6,0.3,,,automatic,ak,ak
+2016-06-29T09:58:57.330Z,-12.902,-14.6909,10,5.1,mb,,68,4.948,0.79,us,us200067xa,2016-06-29T10:14:29.243Z,"Southern Mid-Atlantic Ridge",earthquake,11.4,1.9,0.05,129,reviewed,us,us
+2016-06-29T09:10:47.000Z,60.0608,-152.9747,112.2,2.8,ml,,,,0.48,ak,ak13732224,2016-06-29T09:34:27.573Z,"49km SSW of Redoubt Volcano, Alaska",earthquake,0.3,0.4,,,automatic,ak,ak
+2016-06-29T09:10:29.070Z,29.5713,81.1828,9.07,4.6,mb,,77,10.274,0.65,us,us200067x7,2016-06-29T10:06:45.661Z,"41km NE of Dipayal, Nepal",earthquake,10.3,1.5,0.091,36,reviewed,us,us
+2016-06-29T08:37:22.280Z,56.3482,-161.777,189.38,5.3,mb,,31,1.241,1.3,us,us200067vg,2016-06-29T16:25:03.000Z,"138km NW of Sand Point, Alaska",earthquake,6.5,4.7,0.021,760,reviewed,us,us
+2016-06-29T08:20:23.000Z,53.627,-165.4591,48.1,2.7,ml,,,,0.37,ak,ak13732140,2016-06-29T17:32:11.540Z,"60km SSE of Akutan, Alaska",earthquake,1.3,1.1,,,reviewed,ak,ak
+2016-06-29T08:08:14.710Z,39.4505,73.3691,10,5.1,mb,,70,1.211,1.46,us,us200067va,2016-06-29T08:26:24.460Z,"32km SSE of Sary-Tash, Kyrgyzstan",earthquake,5.7,1.7,0.039,211,reviewed,us,us
+2016-06-29T07:59:05.680Z,36.2839,-97.5178,4.64,3.2,mb_lg,,48,0.208,0.22,us,us200067v8,2016-06-29T08:18:24.836Z,"20km W of Perry, Oklahoma",earthquake,0.9,7.8,0.052,95,reviewed,us,us
+2016-06-29T05:37:19.000Z,51.601,-177.5953,61.3,2.5,ml,,,,0.26,ak,ak13732117,2016-06-29T17:32:18.043Z,"49km SE of Tanaga Volcano, Alaska",earthquake,1.7,0.5,,,reviewed,ak,ak
+2016-06-29T04:52:08.000Z,52.0383,-176.8533,86.5,2.8,ml,,,,0.55,ak,ak13732114,2016-06-29T17:17:53.951Z,"22km NW of Adak, Alaska",earthquake,2.1,0.3,,,reviewed,ak,ak
+2016-06-29T03:20:50.500Z,19.065,-66.9745,62,2.8,Md,6,288,0.71955054,0.2,pr,pr16181001,2016-06-29T07:57:56.419Z,"62km N of Isabela, Puerto Rico",earthquake,1.6,3.1,0,4,reviewed,pr,pr
+2016-06-29T02:05:45.700Z,-61.6388,155.9184,10,4.6,mb,,135,7.338,0.47,us,us200067ti,2016-06-29T04:11:44.505Z,"Balleny Islands region",earthquake,10.6,1.9,0.141,15,reviewed,us,us
+2016-06-29T01:39:54.300Z,18.8551,-67.3912,20,2.8,Md,8,280.8,0.4761071,0.18,pr,pr16181000,2016-06-29T05:06:07.825Z,"50km NW of San Antonio, Puerto Rico",earthquake,1,17,0,5,reviewed,pr,pr
+2016-06-29T00:50:08.910Z,35.1143333,-118.6746667,9.38,2.92,ml,55,25,0.117,0.21,ci,ci37615896,2016-06-29T17:08:17.650Z,"18km SE of Arvin, CA",earthquake,0.19,0.56,0.153,161,reviewed,ci,ci
+2016-06-28T23:50:59.750Z,-21.1679,-68.7088,126.51,4,mb,,47,1.103,0.86,us,us200067s4,2016-06-29T01:00:55.989Z,"145km N of Calama, Chile",earthquake,6.1,8.5,0.212,6,reviewed,us,us
+2016-06-28T23:36:50.020Z,16.476,-97.9403,10,4.5,mb,,179,1.235,1.03,us,us200067sc,2016-06-29T00:47:46.514Z,"7km NNW of Pinotepa de Don Luis, Mexico",earthquake,3.7,2,0.042,165,reviewed,us,us
+2016-06-28T23:07:29.230Z,-30.3572,-71.7324,29.21,4.9,mb,,84,0.326,0.94,us,us200067rb,2016-06-28T23:27:53.969Z,"57km WNW of Ovalle, Chile",earthquake,4.5,4.7,0.079,50,reviewed,us,us
+2016-06-28T22:57:53.810Z,39.5372,73.2365,10,4.4,mb,,156,1.109,1.41,us,us200067r6,2016-06-28T23:15:18.708Z,"21km S of Sary-Tash, Kyrgyzstan",earthquake,6.4,1.9,0.134,16,reviewed,us,us
+2016-06-28T22:46:47.020Z,-14.6922,166.4374,10,5.8,mww,,24,6.099,1.09,us,us200067r2,2016-06-29T15:17:39.040Z,"76km WNW of Port-Olry, Vanuatu",earthquake,8,1.8,,,reviewed,us,us

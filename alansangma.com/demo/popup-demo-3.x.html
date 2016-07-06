@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Predominance Renderer</title>
+
+<link rel="stylesheet" href="https://js.arcgis.com/3.17/esri/css/esri.css">
+<link rel="stylesheet" href="https://js.arcgis.com/3.17/dijit/themes/claro/claro.css">    
+<script src="https://js.arcgis.com/3.17/"></script>
+
+<style>
+html, body, #map {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+#legendDiv{
+  z-index: 65;
+  top: 15px;
+  right: 15px;
+  position: absolute;
+  max-width: 300px;
+  padding: 16px;
+  /*opacity: 0.9;*/
+  background-color: #fff;
+  /*border-bottom-left-radius: 8px;*/
+  /*padding: 0px 0px 0px 10px;*/
+}    
+</style>
+
+<script>
+require([
+    "esri/map",
+    "esri/layers/FeatureLayer",
+    // "esri/renderers/smartMapping",
+    "esri/symbols/SimpleFillSymbol",
+    "esri/symbols/SimpleLineSymbol",
+    "esri/renderers/ClassBreaksRenderer",
+    "esri/Color",
+    "esri/dijit/Legend",
+    "esri/dijit/PopupTemplate",
+    "dojo/dom",
+    "dojo/on",
+    "dojo/domReady!"
+  ],
+  function(
+    Map,
+    FeatureLayer,
+    // smartMapping,
+    SimpleFillSymbol,
+    SimpleLineSymbol,
+    ClassBreaksRenderer,
+    Color,
+    Legend,
+    PopupTemplate,
+    dom, on
+  ) {
+
+    var map = new Map("map", {
+      basemap: "dark-gray-vector",
+      center: [-95, 40],
+      zoom: 4
+    });
+    
+    var lyrURL = "https://services.arcgis.com/V6ZHFr6zdgNZuVG0/arcgis/rest/services/us_county_educational_attainment_pop/FeatureServer/0";
+
+    //Create new feature layer pointing to service with educational attainment data by county
+    //and assign it a PopupTemplate with pie chart
+    var edLayer = new FeatureLayer(lyrURL, {
+      mode: FeatureLayer.MODE_SNAPSHOT,
+      outFields: ["*"],
+      // visible: false,
+      infoTemplate: new PopupTemplate({
+        title: "{COUNTY}, {STATE}",
+        description: "In {COUNTY} <b>{ATT_COL}</b> adults have attended at least some college, "
+          + "<b>{BACHDEG_CY}</b> adults earned a bachelor's degree and "
+          + "<b>{GRADDEG_CY}</b> adults earned a post-graduate degree.",
+        mediaInfos: [{
+          type: "piechart",
+          value: {
+            theme: "PurpleRain",
+            fields: ["NO_COL", "SMCOLL_CY", "ASSCDEG_CY", "BACHDEG_CY", "GRADDEG_CY"]
+          }
+        }],
+        fieldInfos: [{
+          fieldName: "NO_COL",
+          label: "Didn't attend any college",
+          format: { places: 0, digitSeparator: true }  
+        }, {
+          fieldName: "SMCOLL_CY",
+          label: "Attended some college",
+          format: { places: 0, digitSeparator: true }  
+        }, {
+          fieldName: "ASSCDEG_CY",
+          label: "Earned associate's degree",
+          format: { places: 0, digitSeparator: true }  
+        }, {
+          fieldName: "BACHDEG_CY",
+          label: "Earned bachelor's degree",
+          format: { places: 0, digitSeparator: true }  
+        }, {
+          fieldName: "GRADDEG_CY",
+          label: "Earned post graduate degree",
+          format: { places: 0, digitSeparator: true }  
+        }, {
+          fieldName: "ATT_COL",
+          label: "Attended at least some college",
+          format: { places: 0, digitSeparator: true }  
+        }]
+      })
+    });
+
+
+      var colors = [
+        "#fff",
+        "#e5e1ef",
+        "#c4bcdc",
+        "#9081bc",
+        "#7b6ca7",
+        "#846ebf",
+        "#7461a8",
+        "#61518c",
+        "#4f4273"
+      ];
+    var symbol = new SimpleFillSymbol();
+    symbol.setColor(new Color([150, 150, 150, 1]));
+
+    var renderer = new ClassBreaksRenderer(symbol, "COL_BACH");
+    renderer.addBreak(0, 999, new SimpleFillSymbol(SimpleFillSymbol.STYLE_SOLID, new SimpleLineSymbol(SimpleLineSymbol.STYLE_SOLID, new Color("#000")).setWidth(0.5), new Color(colors[0])));
+    renderer.addBreak(1000, 1999, new SimpleFillSymbol(SimpleFillSymbol.STYLE_SOLID, new SimpleLineSymbol(SimpleLineSymbol.STYLE_SOLID, new Color("#000")).setWidth(0.5), new Color(colors[1])));
+    renderer.addBreak(2000, 2999, new SimpleFillSymbol(SimpleFillSymbol.STYLE_SOLID, new SimpleLineSymbol(SimpleLineSymbol.STYLE_SOLID, new Color("#000")).setWidth(0.5), new Color(colors[2])));
+    renderer.addBreak(3000, 3999, new SimpleFillSymbol(SimpleFillSymbol.STYLE_SOLID, new SimpleLineSymbol(SimpleLineSymbol.STYLE_SOLID, new Color("#000")).setWidth(0.5), new Color(colors[3])));
+    renderer.addBreak(4000, 4999, new SimpleFillSymbol(SimpleFillSymbol.STYLE_SOLID, new SimpleLineSymbol(SimpleLineSymbol.STYLE_SOLID, new Color("#000")).setWidth(0.5), new Color(colors[4])));
+    renderer.addBreak(5000, 5999, new SimpleFillSymbol(SimpleFillSymbol.STYLE_SOLID, new SimpleLineSymbol(SimpleLineSymbol.STYLE_SOLID, new Color("#000")).setWidth(0.5), new Color(colors[5])));
+    renderer.addBreak(6000, 6999, new SimpleFillSymbol(SimpleFillSymbol.STYLE_SOLID, new SimpleLineSymbol(SimpleLineSymbol.STYLE_SOLID, new Color("#000")).setWidth(0.5), new Color(colors[6])));
+    renderer.addBreak(7000, 7999, new SimpleFillSymbol(SimpleFillSymbol.STYLE_SOLID, new SimpleLineSymbol(SimpleLineSymbol.STYLE_SOLID, new Color("#000")).setWidth(0.5), new Color(colors[7])));
+    renderer.addBreak(8000, 1000000, new SimpleFillSymbol(SimpleFillSymbol.STYLE_SOLID, new SimpleLineSymbol(SimpleLineSymbol.STYLE_SOLID, new Color("#000")).setWidth(0.5), new Color(colors[8])));
+    edLayer.setRenderer(renderer);
+    //Add the layer to the map
+    map.addLayer(edLayer);
+
+    /*var legend = new Legend({
+      map: map,
+      layerInfos: [{
+        layer: edLayer,
+        title: "Bachelors Degrees among Adults"
+      }]
+    }, "legend");
+    legend.startup();*/
+  });
+</script>
+</head>
+
+<body class="claro">
+  <div id="map"></div>
+  <!-- <div id="legendDiv">
+    <div id="legend"></div>
+  </div> -->
+</body>
+
+</html>

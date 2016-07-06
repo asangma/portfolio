@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html dir="ltr">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no" />
+  <title>Popup</title>
+  <style>
+  html,
+  body,
+  #sceneDiv {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  </style>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.0/esri/css/main.css">
+  <script src="https://js.arcgis.com/4.0/"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script> -->
+
+  <script type="text/javascript">
+  var map, view, featureLayer;
+
+  require([
+      "esri/Map",
+      "esri/views/MapView",
+
+      "esri/layers/FeatureLayer",
+      "esri/geometry/Extent",
+
+      "esri/PopupTemplate",
+      "esri/renderers/ClassBreaksRenderer",
+
+      "esri/symbols/SimpleFillSymbol",
+      "esri/widgets/Legend",
+      "dojo/domReady!"
+    ],
+    function(
+      Map, MapView,
+      FeatureLayer, Extent,
+      PopupTemplate,
+      ClassBreaksRenderer,
+      SimpleFillSymbol,
+      Legend
+    ) {
+
+      map = new Map({
+        basemap: "dark-gray-vector"
+      });
+
+      view = new MapView({
+        container: "sceneDiv",
+        map: map,
+        center: [-95, 40],
+        zoom: 4
+      });
+      view.popup.dockOptions = {
+        position: "bottom-center"
+      }
+
+      /********************
+       * Add feature layer
+       ********************/
+
+      var colors = [
+        "#fff",
+        "#e5e1ef",
+        "#c4bcdc",
+        "#9081bc",
+        "#7b6ca7",
+        "#846ebf",
+        "#7461a8",
+        "#61518c",
+        "#4f4273"
+      ];
+
+      var tpl = new PopupTemplate({
+        title: "{COUNTY}, {STATE}",
+        content: [
+          {
+            type: "text",
+            text: "In {COUNTY} <strong>{ATT_COL}</strong> adults have attended at least some college, " + "<strong>{BACHDEG_CY}</strong> adults earned a bachelor's degree and " + "<strong>{GRADDEG_CY}</strong> adults earned a post-graduate degree."
+          },
+          {
+            type: "media",
+            mediaInfos: [{
+              type: "pie-chart",
+              value: {
+                theme: "PurpleRain",
+                normalizedField: null,
+                fields: [
+                  "NO_COL",
+                  "SMCOLL_CY",
+                  "ASSCDEG_CY",
+                  "BACHDEG_CY",
+                  "GRADDEG_CY",
+                  "ATT_COL"
+                ]
+              }
+            }]
+          }
+        ]
+          // content: "{*}"
+      });
+      // colors.reverse();
+
+      var less1000 = new SimpleFillSymbol({
+        color: colors[0],
+        style: "solid",
+        outline: {
+          width: 0.5,
+          color: "rgba(0, 0, 0, 1)"
+        }
+      });
+
+      var min1000 = new SimpleFillSymbol({
+        color: colors[1],
+        style: "solid",
+        outline: {
+          width: 0.5,
+          color: "rgba(0, 0, 0, 1)"
+        }
+      });
+
+      var min2000 = new SimpleFillSymbol({
+        color: colors[2],
+        style: "solid",
+        outline: {
+          width: 0.5,
+          color: "rgba(0, 0, 0, 1)"
+        }
+      });
+
+      var min3000 = new SimpleFillSymbol({
+        color: colors[3],
+        style: "solid",
+        outline: {
+          width: 0.5,
+          color: "rgba(0, 0, 0, 1)"
+        }
+      });
+
+      var min4000 = new SimpleFillSymbol({
+        color: colors[4],
+        style: "solid",
+        outline: {
+          width: 0.5,
+          color: "rgba(0, 0, 0, 1)"
+        }
+      });
+
+      var min5000 = new SimpleFillSymbol({
+        color: colors[5],
+        style: "solid",
+        outline: {
+          width: 0.5,
+          color: "rgba(0, 0, 0, 1)"
+        }
+      });
+
+      var min6000 = new SimpleFillSymbol({
+        color: colors[6],
+        style: "solid",
+        outline: {
+          width: 0.5,
+          color: "rgba(0, 0, 0, 1)"
+        }
+      });
+
+      var min7000 = new SimpleFillSymbol({
+        color: colors[7],
+        style: "solid",
+        outline: {
+          width: 0.5,
+          color: "rgba(0, 0, 0, 1)"
+        }
+      });
+
+      var min8000 = new SimpleFillSymbol({
+        color: colors[8],
+        style: "solid",
+        outline: {
+          width: 0.5,
+          color: "rgba(0, 0, 0, 1)"
+        }
+      });
+
+      var renderer = new ClassBreaksRenderer({
+        field: "COL_BACH",
+        defaultSymbol: new SimpleFillSymbol({
+          color: "gray",
+          outline: {
+            width: 0.5,
+            color: "rgba(0, 0, 0, 1)"
+          }
+        }),
+        defaultLabel: "no data",
+        classBreakInfos: [{
+          minValue: 0,
+          maxValue: 999,
+          symbol: less1000,
+          label: "less than 1000"
+        }, {
+          minValue: 1000,
+          maxValue: 1999,
+          symbol: min1000,
+          label: "at least 1000"
+        }, {
+          minValue: 2000,
+          maxValue: 2999,
+          symbol: min2000,
+          label: "at least 2000"
+        }, {
+          minValue: 3000,
+          maxValue: 3999,
+          symbol: min3000,
+          label: "at least 3000"
+        }, {
+          minValue: 4000,
+          maxValue: 4999,
+          symbol: min4000,
+          label: "at least 4000"
+        }, {
+          minValue: 5000,
+          maxValue: 5999,
+          symbol: min5000,
+          label: "at least 5000"
+        }, {
+          minValue: 6000,
+          maxValue: 7999,
+          symbol: min6000,
+          label: "at least 6000"
+        }, {
+          minValue: 7000,
+          maxValue: 7999,
+          symbol: min7000,
+          label: "at least 7000"
+        }, {
+          minValue: 8000,
+          maxValue: 1000000,
+          symbol: min8000,
+          label: "at least 8000"
+        }]
+      });
+
+      // Carbon storage of trees in Warren Wilson College.
+      featureLayer = new FeatureLayer({
+        popupTemplate: tpl,
+        outFields: ["*"],
+        url: "https://services.arcgis.com/V6ZHFr6zdgNZuVG0/arcgis/rest/services/us_county_educational_attainment_pop/FeatureServer/0",
+        renderer: renderer
+      });
+      // featureLayer.opacity = 0.6;
+
+      map.add(featureLayer);
+
+      var legend;
+      /*view.then(function() {
+        let featureLayer = map.layers.getItemAt(0);
+        legend = new Legend({
+          view: view,
+          layerInfos: [{
+            layer: featureLayer,
+            title: "Bachelors Degrees among Adults"
+          }]
+        }, "legendDiv");
+
+        view.ui.add(legend, "top-right");
+        jQuery('.esri-legend__service-label').hide();//.html('Bachelors Degrees among Adults');
+      });*/
+
+
+    });
+  </script>
+</head>
+
+<body>
+  <div id="sceneDiv"></div>
+  <!-- <div id="legendDiv"></div> -->
+
+</body>
+
+</html>
