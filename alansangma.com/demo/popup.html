@@ -15,9 +15,10 @@
     padding: 0;
   }
   </style>
+  <link rel="stylesheet" href="https://js.arcgis.com/3.17/dijit/themes/claro/claro.css">    
   <link rel="stylesheet" href="https://js.arcgis.com/4.0/esri/css/main.css">
   <script src="https://js.arcgis.com/4.0/"></script>
-  <!-- <script src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script> -->
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
 
   <script type="text/javascript">
   var map, view, featureLayer;
@@ -80,7 +81,7 @@
         content: [
           {
             type: "text",
-            text: "In {COUNTY} <strong>{ATT_COL}</strong> adults have attended at least some college, " + "<strong>{BACHDEG_CY}</strong> adults earned a bachelor's degree and " + "<strong>{GRADDEG_CY}</strong> adults earned a post-graduate degree."
+            text: "In {COUNTY}, <strong>{ATT_COL}</strong> adults have attended at least some college, " + "<strong>{BACHDEG_CY}</strong> adults earned a bachelor's degree and " + "<strong>{GRADDEG_CY}</strong> adults earned a post-graduate degree."
           },
           {
             type: "media",
@@ -100,7 +101,32 @@
               }
             }]
           }
-        ]
+        ],
+        fieldInfos: [{
+          fieldName: "NO_COL",
+          label: "Didn't attend any college",
+          format: { places: 0, digitSeparator: true }  
+        }, {
+          fieldName: "SMCOLL_CY",
+          label: "Attended some college",
+          format: { places: 0, digitSeparator: true }  
+        }, {
+          fieldName: "ASSCDEG_CY",
+          label: "Earned associate's degree",
+          format: { places: 0, digitSeparator: true }  
+        }, {
+          fieldName: "BACHDEG_CY",
+          label: "Earned bachelor's degree",
+          format: { places: 0, digitSeparator: true }  
+        }, {
+          fieldName: "GRADDEG_CY",
+          label: "Earned post graduate degree",
+          format: { places: 0, digitSeparator: true }  
+        }, {
+          fieldName: "ATT_COL",
+          label: "Attended at least some college",
+          format: { places: 0, digitSeparator: true }  
+        }]
           // content: "{*}"
       });
       // colors.reverse();
@@ -270,7 +296,26 @@
         jQuery('.esri-legend__service-label').hide();//.html('Bachelors Degrees among Adults');
       });*/
 
-
+      view.on('click', function(evt){
+        var title = view.popup.features[0].attributes.COUNTY.toLowerCase();
+        // console.log();
+        if(title == "rush county") {
+          var curr_feat = view.popup.features[0];
+          var feat_1 = jQuery.extend(true, {}, curr_feat);
+          feat_1.attributes.COUNTY = "Barton County";
+          var feat_2 = jQuery.extend(true, {}, curr_feat);
+          feat_2.attributes.COUNTY = "Russell County";
+          var feat_3 = jQuery.extend(true, {}, curr_feat);
+          feat_3.attributes.COUNTY = "Ellis County";
+          var features = [
+            view.popup.features[0],
+            feat_1,
+            feat_2,
+            feat_3
+            ];
+          view.popup.features = features;
+        }
+      });
     });
   </script>
 </head>
